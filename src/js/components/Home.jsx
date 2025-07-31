@@ -44,6 +44,7 @@ const Home = () => {
             </li>
           ))
         )}
+        <p>Total de tareas: {tareas.length}</p>
       </ul>
     </div>
   );
